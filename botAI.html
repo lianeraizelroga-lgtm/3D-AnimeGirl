@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Chatbot Test</title>
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/",
+        "@pixiv/three-vrm": "https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@3/lib/three-vrm.module.min.js",
+        "@pixiv/three-vrm-animation": "https://cdn.jsdelivr.net/npm/@pixiv/three-vrm-animation@3/lib/three-vrm-animation.module.min.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h3 class="typewriter">Face and Animations Test</h3>
+        <p class>(Created in Oct. 28, 2026) Test version of my 1st VRoid model Nyann, made with VRoid and Claude.</p>
+    </header>
+
+    <main>
+               
+            <div class="test-faces">
+                <p>Faces</p>
+                <button data-emo="neutral">neutral</button>
+                <button data-emo="blush_or_sly_smile">blush_or_sly_smile</button>
+                <button data-emo="full_grin">full_grin</button>
+                <button data-emo="worried_shocked">worried_shocked</button>
+                <button data-emo="sad">sad</button>
+                <button data-emo="angry">angry</button>
+                <button data-emo="annoyed_or_frustrated">annoyed_or_frustrated</button>
+                <button data-emo="offended_or_indignant">offended_or_indignant</button>
+                <button data-emo="happy_surprised">small_surprised</button>
+                <button data-emo="full_surprised">full_surprised</button>
+                <button data-emo="small_smile">small_smile</button>
+                <button data-emo="annoyed_or_pout">annoyed_or_pout</button>
+                <button data-emo="surprised_scared">surprised_scared</button>
+                <button data-emo="amazed_or_delighted">amazed_or_delighted</button>
+                <button data-emo="yawn">yawn</button>
+                <button data-emo="touched_or_moved">touched_or_moved</button>
+                <button data-emo="worried_sad">worried_sad</button>
+                <button data-emo="confused_or_thinking">confused_or_thinking</button>
+                <button data-emo="embarrassed_or_shy">embarrassed</button>
+                <button data-emo="smug_or_proud">smug_or_proud</button>
+                <button data-emo="excited">excited</button>
+                <button data-emo="sleepy_or_tired">sleepy_or_tired</button>
+                <button data-emo="unimpressed_or_bored">unimpressed_or_bored</button>
+                <button data-emo="disgusted">disgusted</button>
+                <div class="test-animation">
+                    <p>Animations</p>
+                    <button data-anim="animations/greeting.vrma">greeting</button>
+                    <button data-anim="animations/peace_sign.vrma">peace_sign</button>
+                    <button data-anim="animations/spin.vrma">spin</button>
+                    <button data-anim="animations/finger_gun_pose.vrma">finger_gun_pose</button>
+                    <button data-anim="animations/model_pose.vrma">model_pose</button>
+                    <button data-anim="animations/show_fullbody.vrma">show_fullbody</button>
+                    <button data-anim="animations/squat.vrma">squat</button>
+                </div>
+            </div>
+        
+    </main>
+    <canvas id="stage"></canvas>
+    
+    <script src="https://kit.fontawesome.com/3f6fae238f.js" crossorigin="anonymous"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

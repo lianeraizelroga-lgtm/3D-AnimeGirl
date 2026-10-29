@@ -1,0 +1,99 @@
+#stage {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 185vw;    /* right 55% of the screen */
+  height: 95vh;   /* leaves room for the header on top */
+  z-index: 0;
+  pointer-events: none;   /* clicks pass through her */
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/SakuraBg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    border: 2px white dotted;
+    top: 0px;
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgba(143, 143, 143, 0.548), rgba(1, 1, 1, 0.763));
+    color: white;
+    text-align: center;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(255, 255, 255, 0); }
+}
+
+
+.test-faces {
+  border: 2px white dotted;
+  width: 40%;
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(45deg, rgba(143, 143, 143, 0.548), rgba(1, 1, 1, 0.763));
+  color: white;
+  margin-left: 600px;
+  z-index: 2;
+}
+
+button {   
+    z-index: 2;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    transition: 0.30s;
+    transform: scale(1.20);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.61);
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+@media (max-width: 880px) {
+    #stage {
+     width: 80vw;    /* right 55% of the screen */
+  height: 90vh;   /* leaves room for the header on top */
+
+    }
+
+    .test-faces
+    {
+      width: 30%;
+      margin-left: 12px;
+    }
+
+    h2 {
+      font-size: 13px;
+    }
+}
