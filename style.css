@@ -1,9 +1,9 @@
 #stage {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 185vw;    /* right 55% of the screen */
-  height: 95vh;   /* leaves room for the header on top */
+  right: -40vw;
+  top: -20vh;
+  width: 240vw;    /* right 55% of the screen */
+  height: 130vh;   /* leaves room for the header on top */
   z-index: 0;
   pointer-events: none;   /* clicks pass through her */
 }
@@ -65,10 +65,9 @@ header {
 }
 
 button {   
-    z-index: 2;
     margin: 10px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 12px;
     border-radius: 10px;
 }
 
@@ -82,18 +81,20 @@ button:hover {
 
 @media (max-width: 880px) {
     #stage {
-     width: 80vw;    /* right 55% of the screen */
-  height: 90vh;   /* leaves room for the header on top */
+    top: -4vh;
+    width: 100vw;    /* right 55% of the screen */
+    height: 110vh;   /* leaves room for the header on top */
+    left: -5vw;     /* gap from the left edge */
 
     }
 
     .test-faces
     {
-      width: 30%;
-      margin-left: 12px;
+      width: 35%;
+      margin-left: 10px;
     }
 
-    h2 {
-      font-size: 13px;
+    h3 {
+      font-size: 15px;
     }
 }
