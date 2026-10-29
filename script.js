@@ -52,7 +52,7 @@ const canvas = document.querySelector("#stage");
 const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
 renderer.setPixelRatio(window.devicePixelRatio);
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 20); //30 (changed to 40) is zoom-in angle, bigger number means pwede ma zoom-out
+const camera = new THREE.PerspectiveCamera(47, window.innerWidth / window.innerHeight, 0.1, 20); //30 (changed to 47) is zoom-in angle, bigger number means pwede ma zoom-out
 camera.position.set(-0.3, 1.00, 2.5); // x, y (height), z (distance). where the camera stands. can be tweaked to adjust waist-up shot
 const light = new THREE.DirectionalLight(0xffffff, Math.PI);
 light.position.set(1, 1, 1);
