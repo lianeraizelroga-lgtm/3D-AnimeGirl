@@ -3,7 +3,7 @@
   right: -40vw;
   top: -20vh;
   width: 240vw;    
-  height: 130vh;   /* leaves room for the header on top */
+  height: 130vh;   
   z-index: 0;
   pointer-events: none;   /* clicks pass through her */
 }
@@ -81,10 +81,10 @@ button:hover {
 
 @media (max-width: 880px) {
     #stage {
-    top: -4vh;
-    width: 100vw;    /* right 55% of the screen */
-    height: 110vh;   /* leaves room for the header on top */
-    left: -5vw;     /* gap from the left edge */
+    top: -30vh;
+    width: 140vw;    
+    height: 160vh;   /* leaves room for the header on top */
+    left: -25vw;     /* gap from the left edge */
 
     }
 
