@@ -2,7 +2,7 @@
   position: fixed;
   right: -40vw;
   top: -20vh;
-  width: 240vw;    /* right 55% of the screen */
+  width: 240vw;    
   height: 130vh;   /* leaves room for the header on top */
   z-index: 0;
   pointer-events: none;   /* clicks pass through her */
