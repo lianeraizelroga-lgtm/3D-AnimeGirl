@@ -32,4 +32,10 @@ But you can try it online, just open the live demo link above.
 
 ## 🙏 Credits
 - Animations: free sample animations from VRoid
-- Backgrounds: Pinterest, credits to the owners 
+- Backgrounds:
+  - Tokyo street (day/night): [Jaume Rovira Llorca](https://www.artstation.com/artwork/Ooz2Rk) on ArtStation
+  - Classroom: [Mykhailo N](https://www.artstation.com/artwork/P60mWL) on ArtStation
+  - Seaside road: [Jajang Sopandi](https://www.artstation.com/artwork/qQwEOz) on ArtStation
+  - Cherry blossom park: [Urushigusa](https://www.artstation.com/artwork/wrRDDX) on ArtStation
+  - Country house kitchen: [Anastasiya Krushinskaya](https://www.artstation.com/artwork/Jvgawa) on ArtStation
+- Avatars: made in VRoid Studio, based on VRoid's sample models (I only changed the hair and clothes of some of the models)
