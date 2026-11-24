@@ -98,7 +98,7 @@ loader.register((parser) => new VRMAnimationLoaderPlugin(parser));
 //for normal arms, para di naka t-pose
 const bone = (name) => vrm.humanoid.getNormalizedBoneNode(name);
 
-const AVATARS = ["models/nyann.vrm", "models/boyNyann.vrm", "models/nyannMaid.vrm", "models/whiteCat.vrm", "models/blackSuit.vrm"];
+const AVATARS = ["models/nyannMaid.vrm", "models/boyNyann.vrm", "models/nyann.vrm", "models/whiteCat.vrm", "models/blackSuit.vrm"];
 let avatarIndex = 0;
 
 function loadAvatar(path) {
