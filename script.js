@@ -4,7 +4,7 @@ document.querySelector(".change-bg").addEventListener("click", () => {
 });
 
 
-//change avatar
+//change gender
 document.querySelector(".change-avatar").addEventListener("click", () => {
   avatarIndex = (avatarIndex + 1) % AVATARS.length;   // 0 → 1 → 0 → 1...
   loadAvatar(AVATARS[avatarIndex]);
@@ -223,7 +223,7 @@ function updateFace(delta) {
   });
 }
 
-const BGS = ["sakura-bg", "dark-bg", "city-bg", "house-bg", "summer-bg", "school-bg"];
+const BGS = ["shop-bg", "sakura-bg", "day-bg", "night-bg", "kitchen-bg", "road-bg", "classroom-bg"];
 let bgIndex = 0;
 
 /*For Background Toggle Button.*/
