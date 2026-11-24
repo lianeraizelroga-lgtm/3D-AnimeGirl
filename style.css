@@ -12,26 +12,26 @@ body {
     font-family: "Courier New", Courier, monospace;
     margin: 0;
     padding: 0;
-    background-image: url('Images/SakuraBg.jpg');
+    background-image: url('Images/ShopBg.jpg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.city-bg
+.day-bg
 {
-  background-image: url('Images/CityBg.jpg');
+  background-image: url('Images/DayBg.jpg');
 }
 
-.house-bg
+.kitchen-bg
 {
-  background-image: url('Images/HouseBg.jpg');
+  background-image: url('Images/KitchenBg.jpg');
 }
 
-.summer-bg
+.road-bg
 {
-  background-image: url('Images/SummerBg.jpg');
+  background-image: url('Images/RoadBg.jpg');
 }
 
 .sakura-bg
@@ -39,15 +39,21 @@ body {
   background-image: url('Images/SakuraBg.jpg');
 }
 
-.dark-bg
+.night-bg
 {
-  background-image: url('Images/BlackBg.jpg');
+  background-image: url('Images/NightBg.jpg');
 }
 
-.school-bg
+.classroom-bg
 {
   background-image: url('Images/ClassroomBg.jpg');
 }
+
+.shop-bg
+{
+  background-image: url('Images/ShopBg.jpg');
+}
+
 
 header {
     border: 2px white dotted;
@@ -95,6 +101,7 @@ header {
 }
 
 button {   
+    background: #ffffff54;
     margin: 10px;
     padding: 10px;
     font-size: 12px;
