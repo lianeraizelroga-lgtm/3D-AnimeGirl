@@ -4,7 +4,7 @@ document.querySelector(".change-bg").addEventListener("click", () => {
 });
 
 
-//change gender
+//change avatar
 document.querySelector(".change-avatar").addEventListener("click", () => {
   avatarIndex = (avatarIndex + 1) % AVATARS.length;   // 0 → 1 → 0 → 1...
   loadAvatar(AVATARS[avatarIndex]);
