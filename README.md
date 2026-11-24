@@ -38,4 +38,5 @@ But you can try it online, just open the live demo link above.
   - Seaside road: [Jajang Sopandi](https://www.artstation.com/artwork/qQwEOz) on ArtStation
   - Cherry blossom park: [Urushigusa](https://www.artstation.com/artwork/wrRDDX) on ArtStation
   - Country house kitchen: [Anastasiya Krushinskaya](https://www.artstation.com/artwork/Jvgawa) on ArtStation
+  - Coffee shop: [Raf Federez](https://www.artstation.com/artwork/NGBQr1) on ArtStation
 - Avatars: made in VRoid Studio, based on VRoid's sample models (I only changed the hair and clothes of some of the models)
